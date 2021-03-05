@@ -1,0 +1,1066 @@
+BasicInformation:
+	Model: MD-UV380
+	FrequencyRangeA: 400-480
+	FrequencyRangeB: 136-174
+	LowFrequencyA: 400.00000
+	HighFrequencyA: 0.00000
+	LowFrequencyB: 136.00000
+	HighFrequencyB: 174.00000
+	LastProgrammedTime: "02-Mar-2021 21:44:37"
+	CpsVersion: 1001
+
+GeneralSettings:
+	RadioName: DM0KIL-Beispiel
+	RadioID: 12345678
+	IntroScreen: "Character String"
+	IntroScreenLine1: DM0KIL
+	IntroScreenLine2: Beispiel
+	SavePreamble: On
+	CHVoiceAnnouncement: On
+	SaveModeReceive: On
+	DisableAllTones: Off
+	ChFreeIndicationTone: Off
+	TalkPermitTone: None
+	KeypadTones: Off
+	CallAlertToneDuration: Continue
+	ScanDigitalHangTime: 1000
+	ScanAnalogHangTime: 1000
+	LoneWorkerResponseTime: 1
+	LoneWorkerReminderTime: 10
+	PwAndLockEnable: Off
+	PowerOnPassword: 00000000
+	MonitorType: "Open Squelch"
+	VoxSensitivity: 3
+	TxPreambleDuration: 600
+	RxLowBatteryInterval: 120
+	ChannelsHangTime: 3000
+	PcProgPassword: ""
+	RadioProgPassword: ""
+	SetKeypadLockTime: Manual
+	FreqChannelMode: Channel
+	ModeSelectA: Memory
+	ModeSelectB: Memory
+	TimeZone: UTC+8:00
+	BacklightTime: 5
+	DisableAllLeds: Off
+	GroupCallMatch: On
+	PrivateCallMatch: On
+	GroupCallHangTime: 3000
+	PrivateCallHangTime: 4000
+	RadioID1: 1
+	RadioID2: 2
+	RadioID3: 3
+	MicLevel: 3
+	TxMode: "Designated CH + Hand CH"
+	EditRadioID: Off
+	PublicZone: On
+	EnableContactsCSV: Off
+
+MenuItems:
+	HangTime: 10
+	RadioDisable: On
+	RadioEnable: On
+	RemoteMonitor: On
+	RadioCheck: On
+	ManualDial: On
+	Edit: On
+	CallAlert: On
+	TextMessage: On
+	ToneOrAlert: On
+	Talkaround: On
+	OutgoingRadio: On
+	Answered: On
+	Missed: On
+	EditList: On
+	Scan: On
+	ProgramKey: On
+	Vox: On
+	Squelch: On
+	LedIndicator: On
+	KeyboardLock: On
+	IntroScreen: On
+	Backlight: On
+	Power: On
+	Gps: On
+	ProgramRadio: On
+	DisplayMode: On
+	PasswordAndLock: On
+
+RadioButtons:
+	Button: "Unassigned (default)"
+
+RadioButtons:
+	Button: "Unassigned (default)"
+
+RadioButtons:
+	Button: "Unassigned (default)"
+
+RadioButtons:
+	Button: "Unassigned (default)"
+
+ButtonDefinitions:
+	LongPressDuration: 1000
+
+OneTouch:
+	Mode: Digital
+	CallType: "Text Message"
+	DTMF: DTMF-2
+	TextMessage: Hello
+	Encode: =INVALID=
+	Call: Contact1
+
+OneTouch:
+	Mode: Digital
+	CallType: "Text Message"
+	DTMF: DTMF-2
+	TextMessage: Hello
+	Encode: =INVALID=
+	Call: Contact1
+
+OneTouch:
+	Mode: Digital
+	CallType: "Text Message"
+	DTMF: DTMF-2
+	TextMessage: Hello
+	Encode: =INVALID=
+	Call: Contact1
+
+OneTouch:
+	Mode: Digital
+	CallType: "Text Message"
+	DTMF: DTMF-2
+	TextMessage: Hello
+	Encode: =INVALID=
+	Call: Contact1
+
+OneTouch:
+	Mode: Digital
+	CallType: "Text Message"
+	DTMF: DTMF-2
+	TextMessage: Hello
+	Encode: =INVALID=
+	Call: Contact1
+
+OneTouch:
+	Mode: Digital
+	CallType: "Text Message"
+	DTMF: DTMF-2
+	TextMessage: Hello
+	Encode: =INVALID=
+	Call: Contact1
+
+NumberKey:
+	Contact: None
+
+NumberKey:
+	Contact: None
+
+NumberKey:
+	Contact: None
+
+NumberKey:
+	Contact: None
+
+NumberKey:
+	Contact: None
+
+NumberKey:
+	Contact: None
+
+NumberKey:
+	Contact: None
+
+NumberKey:
+	Contact: None
+
+NumberKey:
+	Contact: None
+
+NumberKey:
+	Contact: None
+
+TextMessages:
+	TextMessage: Hello
+
+PrivacySettings:
+	EnhancedKey: FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+	EnhancedKey: FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+	EnhancedKey: FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+	EnhancedKey: FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+	EnhancedKey: FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+	EnhancedKey: FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+	EnhancedKey: FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+	EnhancedKey: FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+	BasicKey: FFFF
+	BasicKey: FFFF
+	BasicKey: FFFF
+	BasicKey: FFFF
+	BasicKey: FFFF
+	BasicKey: FFFF
+	BasicKey: FFFF
+	BasicKey: FFFF
+	BasicKey: FFFF
+	BasicKey: FFFF
+	BasicKey: FFFF
+	BasicKey: FFFF
+	BasicKey: FFFF
+	BasicKey: FFFF
+	BasicKey: FFFF
+	BasicKey: FFFF
+
+Contacts:
+	Name: Contact1
+	CallID: 1
+	CallType: Group
+	CallReceiveTone: No
+
+Contacts:
+	Name: TG9-Lokal
+	CallID: 9
+	CallType: Group
+	CallReceiveTone: No
+
+Contacts:
+	Name: TG8-Regional
+	CallID: 8
+	CallType: Group
+	CallReceiveTone: No
+
+Contacts:
+	Name: TG2622-SH
+	CallID: 2622
+	CallType: Group
+	CallReceiveTone: No
+
+Contacts:
+	Name: TG262-DL
+	CallID: 262
+	CallType: Group
+	CallReceiveTone: No
+
+Contacts:
+	Name: TG91-World
+	CallID: 91
+	CallType: Group
+	CallReceiveTone: No
+
+Contacts:
+	Name: TG99-SIMPLEX
+	CallID: 99
+	CallType: Group
+	CallReceiveTone: No
+
+Contacts:
+	Name: "TAC1 26200"
+	CallID: 26200
+	CallType: Group
+	CallReceiveTone: No
+
+Contacts:
+	Name: "TAC2 26299"
+	CallID: 26299
+	CallType: Group
+	CallReceiveTone: No
+
+Contacts:
+	Name: "TAC3 26233"
+	CallID: 26233
+	CallType: Group
+	CallReceiveTone: No
+
+Contacts:
+	Name: "TAC4 26266"
+	CallID: 26266
+	CallType: Group
+	CallReceiveTone: No
+
+GroupLists:
+	Name: TG9
+	Contact: Contact1
+	Contact: TG9-Lokal
+
+GroupLists:
+	Name: TG8
+	Contact: Contact1
+	Contact: TG8-Regional
+
+GroupLists:
+	Name: TG2622
+	Contact: Contact1
+	Contact: TG2622-SH
+
+GroupLists:
+	Name: TG26200
+	Contact: Contact1
+	Contact: "TAC1 26200"
+
+GroupLists:
+	Name: TG26299
+	Contact: Contact1
+	Contact: "TAC2 26299"
+
+GroupLists:
+	Name: TG26233
+	Contact: Contact1
+	Contact: "TAC3 26233"
+
+GroupLists:
+	Name: TG26266
+	Contact: Contact1
+	Contact: "TAC4 26266"
+
+GroupLists:
+	Name: TG262
+	Contact: Contact1
+	Contact: TG262-DL
+
+GroupLists:
+	Name: TG99
+	Contact: Contact1
+	Contact: TG99-SIMPLEX
+
+GroupLists:
+	Name: TG91
+	Contact: Contact1
+	Contact: TG91-World
+
+Zones:
+	Name: DM0KIL
+	ChannelA: "FM DM0KIL"
+	ChannelA: "TG9 Lokal"
+	ChannelA: "TG8 REGIO"
+	ChannelA: TG2622SH
+	ChannelA: TG91WORLD
+	ChannelA: TG262DL
+	ChannelA: TG99SIMPLEX
+	ChannelA: "TAC1 26200"
+	ChannelA: "TAC2 26299"
+	ChannelA: "TAC3 26233"
+	ChannelA: "TAC4 26266"
+	ChannelA: "TETRA RXOnly"
+	ChannelB: "FM DM0KIL"
+	ChannelB: "TG9 Lokal"
+	ChannelB: "TG8 REGIO"
+	ChannelB: TG2622SH
+	ChannelB: TG91WORLD
+	ChannelB: TG262DL
+	ChannelB: TG99SIMPLEX
+	ChannelB: "TAC1 26200"
+	ChannelB: "TAC2 26299"
+	ChannelB: "TAC3 26233"
+	ChannelB: "TAC4 26266"
+	ChannelB: "TETRA RXOnly"
+
+ScanLists:
+	Name: ScanList1
+	PriorityChannel1: None
+	PriorityChannel2: None
+	TxDesignatedChannel: "Last Active Channel"
+	SignallingHoldTime: 500
+	PrioritySampleTime: 2000
+	Channel: "FM DM0KIL"
+	Channel: "TG8 REGIO"
+
+Channels:
+	Name: "FM DM0KIL"
+	RxFrequency: 439.02500
+	TxFrequencyOffset: -7.60000
+	ChannelMode: Analog
+	Bandwidth: 12.5
+	ScanList: None
+	Squelch: 1
+	RxRefFrequency: Low
+	TxRefFrequency: Low
+	Tot: 60
+	TotRekeyDelay: 0
+	Power: High
+	AdmitCriteria: Always
+	Autoscan: Off
+	RxOnly: Off
+	LoneWorker: Off
+	Vox: Off
+	AllowTalkaround: Off
+	SendGPSInfo: Off
+	ReceiveGPSInfo: Off
+	PrivateCallConfirmed: Off
+	Talkaround: Off
+	EmergencyAlarmAck: Off
+	DataCallConfirmed: Off
+	DCDMSwitch: Off
+	LeaderMS: Off
+	EmergencySystem: None
+	ContactName: None
+	GroupList: None
+	ColorCode: 1
+	RepeaterSlot: 1
+	Privacy: None
+	PrivacyNumber: 1
+	GPSSystem: None
+	InCallCriteria: Always
+	DisplayPTTID: Off
+	CtcssEncode: None
+	TxSignallingSystem: Off
+	QtReverse: 180
+	ReverseBurst: On
+	CtcssDecode: None
+	RxSignallingSystem: Off
+	Decode1: Off
+	Decode2: Off
+	Decode3: Off
+	Decode4: Off
+	Decode5: Off
+	Decode6: Off
+	Decode7: Off
+	Decode8: Off
+
+Channels:
+	Name: "TG9 Lokal"
+	RxFrequency: 439.48750
+	TxFrequencyOffset: -7.60000
+	ChannelMode: Digital
+	Bandwidth: 12.5
+	ScanList: None
+	Squelch: 1
+	RxRefFrequency: Low
+	TxRefFrequency: Low
+	Tot: 60
+	TotRekeyDelay: 0
+	Power: High
+	AdmitCriteria: Always
+	Autoscan: Off
+	RxOnly: Off
+	LoneWorker: Off
+	Vox: Off
+	AllowTalkaround: Off
+	SendGPSInfo: Off
+	ReceiveGPSInfo: Off
+	PrivateCallConfirmed: Off
+	Talkaround: Off
+	EmergencyAlarmAck: Off
+	DataCallConfirmed: Off
+	DCDMSwitch: Off
+	LeaderMS: Off
+	EmergencySystem: None
+	ContactName: TG9-Lokal
+	GroupList: TG9
+	ColorCode: 1
+	RepeaterSlot: 2
+	Privacy: None
+	PrivacyNumber: 1
+	GPSSystem: None
+	InCallCriteria: Always
+	DisplayPTTID: Off
+	CtcssEncode: None
+	TxSignallingSystem: Off
+	QtReverse: 180
+	ReverseBurst: On
+	CtcssDecode: None
+	RxSignallingSystem: Off
+	Decode1: Off
+	Decode2: Off
+	Decode3: Off
+	Decode4: Off
+	Decode5: Off
+	Decode6: Off
+	Decode7: Off
+	Decode8: Off
+
+Channels:
+	Name: "TG8 REGIO"
+	RxFrequency: 439.48750
+	TxFrequencyOffset: -7.60000
+	ChannelMode: Digital
+	Bandwidth: 12.5
+	ScanList: None
+	Squelch: 1
+	RxRefFrequency: Low
+	TxRefFrequency: Low
+	Tot: 60
+	TotRekeyDelay: 0
+	Power: High
+	AdmitCriteria: Always
+	Autoscan: Off
+	RxOnly: Off
+	LoneWorker: Off
+	Vox: Off
+	AllowTalkaround: Off
+	SendGPSInfo: Off
+	ReceiveGPSInfo: Off
+	PrivateCallConfirmed: Off
+	Talkaround: Off
+	EmergencyAlarmAck: Off
+	DataCallConfirmed: Off
+	DCDMSwitch: Off
+	LeaderMS: Off
+	EmergencySystem: None
+	ContactName: TG8-Regional
+	GroupList: TG8
+	ColorCode: 1
+	RepeaterSlot: 2
+	Privacy: None
+	PrivacyNumber: 1
+	GPSSystem: None
+	InCallCriteria: Always
+	DisplayPTTID: Off
+	CtcssEncode: None
+	TxSignallingSystem: Off
+	QtReverse: 180
+	ReverseBurst: On
+	CtcssDecode: None
+	RxSignallingSystem: Off
+	Decode1: Off
+	Decode2: Off
+	Decode3: Off
+	Decode4: Off
+	Decode5: Off
+	Decode6: Off
+	Decode7: Off
+	Decode8: Off
+
+Channels:
+	Name: TG262DL
+	RxFrequency: 439.48750
+	TxFrequencyOffset: -7.60000
+	ChannelMode: Digital
+	Bandwidth: 12.5
+	ScanList: None
+	Squelch: 1
+	RxRefFrequency: Low
+	TxRefFrequency: Low
+	Tot: 60
+	TotRekeyDelay: 0
+	Power: High
+	AdmitCriteria: Always
+	Autoscan: Off
+	RxOnly: Off
+	LoneWorker: Off
+	Vox: Off
+	AllowTalkaround: Off
+	SendGPSInfo: Off
+	ReceiveGPSInfo: Off
+	PrivateCallConfirmed: Off
+	Talkaround: Off
+	EmergencyAlarmAck: Off
+	DataCallConfirmed: Off
+	DCDMSwitch: Off
+	LeaderMS: Off
+	EmergencySystem: None
+	ContactName: TG262-DL
+	GroupList: TG262
+	ColorCode: 1
+	RepeaterSlot: 1
+	Privacy: None
+	PrivacyNumber: 1
+	GPSSystem: None
+	InCallCriteria: Always
+	DisplayPTTID: Off
+	CtcssEncode: None
+	TxSignallingSystem: Off
+	QtReverse: 180
+	ReverseBurst: On
+	CtcssDecode: None
+	RxSignallingSystem: Off
+	Decode1: Off
+	Decode2: Off
+	Decode3: Off
+	Decode4: Off
+	Decode5: Off
+	Decode6: Off
+	Decode7: Off
+	Decode8: Off
+
+Channels:
+	Name: TG2622SH
+	RxFrequency: 439.48750
+	TxFrequencyOffset: -7.60000
+	ChannelMode: Digital
+	Bandwidth: 12.5
+	ScanList: None
+	Squelch: 1
+	RxRefFrequency: Low
+	TxRefFrequency: Low
+	Tot: 60
+	TotRekeyDelay: 0
+	Power: High
+	AdmitCriteria: Always
+	Autoscan: Off
+	RxOnly: Off
+	LoneWorker: Off
+	Vox: Off
+	AllowTalkaround: Off
+	SendGPSInfo: Off
+	ReceiveGPSInfo: Off
+	PrivateCallConfirmed: Off
+	Talkaround: Off
+	EmergencyAlarmAck: Off
+	DataCallConfirmed: Off
+	DCDMSwitch: Off
+	LeaderMS: Off
+	EmergencySystem: None
+	ContactName: TG2622-SH
+	GroupList: TG2622
+	ColorCode: 1
+	RepeaterSlot: 2
+	Privacy: None
+	PrivacyNumber: 1
+	GPSSystem: None
+	InCallCriteria: Always
+	DisplayPTTID: Off
+	CtcssEncode: None
+	TxSignallingSystem: Off
+	QtReverse: 180
+	ReverseBurst: On
+	CtcssDecode: None
+	RxSignallingSystem: Off
+	Decode1: Off
+	Decode2: Off
+	Decode3: Off
+	Decode4: Off
+	Decode5: Off
+	Decode6: Off
+	Decode7: Off
+	Decode8: Off
+
+Channels:
+	Name: TG91WORLD
+	RxFrequency: 439.48750
+	TxFrequencyOffset: -7.60000
+	ChannelMode: Digital
+	Bandwidth: 12.5
+	ScanList: None
+	Squelch: 1
+	RxRefFrequency: Low
+	TxRefFrequency: Low
+	Tot: 60
+	TotRekeyDelay: 0
+	Power: High
+	AdmitCriteria: Always
+	Autoscan: Off
+	RxOnly: Off
+	LoneWorker: Off
+	Vox: Off
+	AllowTalkaround: Off
+	SendGPSInfo: Off
+	ReceiveGPSInfo: Off
+	PrivateCallConfirmed: Off
+	Talkaround: Off
+	EmergencyAlarmAck: Off
+	DataCallConfirmed: Off
+	DCDMSwitch: Off
+	LeaderMS: Off
+	EmergencySystem: None
+	ContactName: TG91-World
+	GroupList: TG91
+	ColorCode: 1
+	RepeaterSlot: 1
+	Privacy: None
+	PrivacyNumber: 1
+	GPSSystem: None
+	InCallCriteria: Always
+	DisplayPTTID: Off
+	CtcssEncode: None
+	TxSignallingSystem: Off
+	QtReverse: 180
+	ReverseBurst: On
+	CtcssDecode: None
+	RxSignallingSystem: Off
+	Decode1: Off
+	Decode2: Off
+	Decode3: Off
+	Decode4: Off
+	Decode5: Off
+	Decode6: Off
+	Decode7: Off
+	Decode8: Off
+
+Channels:
+	Name: TG99SIMPLEX
+	RxFrequency: 439.48750
+	TxFrequencyOffset: -7.60000
+	ChannelMode: Digital
+	Bandwidth: 12.5
+	ScanList: None
+	Squelch: 1
+	RxRefFrequency: Low
+	TxRefFrequency: Low
+	Tot: 60
+	TotRekeyDelay: 0
+	Power: High
+	AdmitCriteria: Always
+	Autoscan: Off
+	RxOnly: Off
+	LoneWorker: Off
+	Vox: Off
+	AllowTalkaround: Off
+	SendGPSInfo: Off
+	ReceiveGPSInfo: Off
+	PrivateCallConfirmed: Off
+	Talkaround: Off
+	EmergencyAlarmAck: Off
+	DataCallConfirmed: Off
+	DCDMSwitch: Off
+	LeaderMS: Off
+	EmergencySystem: None
+	ContactName: TG99-SIMPLEX
+	GroupList: TG99
+	ColorCode: 1
+	RepeaterSlot: 1
+	Privacy: None
+	PrivacyNumber: 1
+	GPSSystem: None
+	InCallCriteria: Always
+	DisplayPTTID: Off
+	CtcssEncode: None
+	TxSignallingSystem: Off
+	QtReverse: 180
+	ReverseBurst: On
+	CtcssDecode: None
+	RxSignallingSystem: Off
+	Decode1: Off
+	Decode2: Off
+	Decode3: Off
+	Decode4: Off
+	Decode5: Off
+	Decode6: Off
+	Decode7: Off
+	Decode8: Off
+
+Channels:
+	Name: "TAC1 26200"
+	RxFrequency: 439.48750
+	TxFrequencyOffset: -7.60000
+	ChannelMode: Digital
+	Bandwidth: 12.5
+	ScanList: None
+	Squelch: 1
+	RxRefFrequency: Low
+	TxRefFrequency: Low
+	Tot: 60
+	TotRekeyDelay: 0
+	Power: High
+	AdmitCriteria: Always
+	Autoscan: Off
+	RxOnly: Off
+	LoneWorker: Off
+	Vox: Off
+	AllowTalkaround: Off
+	SendGPSInfo: Off
+	ReceiveGPSInfo: Off
+	PrivateCallConfirmed: Off
+	Talkaround: Off
+	EmergencyAlarmAck: Off
+	DataCallConfirmed: Off
+	DCDMSwitch: Off
+	LeaderMS: Off
+	EmergencySystem: None
+	ContactName: "TAC1 26200"
+	GroupList: TG26200
+	ColorCode: 1
+	RepeaterSlot: 1
+	Privacy: None
+	PrivacyNumber: 1
+	GPSSystem: None
+	InCallCriteria: Always
+	DisplayPTTID: Off
+	CtcssEncode: None
+	TxSignallingSystem: Off
+	QtReverse: 180
+	ReverseBurst: On
+	CtcssDecode: None
+	RxSignallingSystem: Off
+	Decode1: Off
+	Decode2: Off
+	Decode3: Off
+	Decode4: Off
+	Decode5: Off
+	Decode6: Off
+	Decode7: Off
+	Decode8: Off
+
+Channels:
+	Name: "TAC2 26299"
+	RxFrequency: 439.48750
+	TxFrequencyOffset: -7.60000
+	ChannelMode: Digital
+	Bandwidth: 12.5
+	ScanList: None
+	Squelch: 1
+	RxRefFrequency: Low
+	TxRefFrequency: Low
+	Tot: 60
+	TotRekeyDelay: 0
+	Power: High
+	AdmitCriteria: Always
+	Autoscan: Off
+	RxOnly: Off
+	LoneWorker: Off
+	Vox: Off
+	AllowTalkaround: Off
+	SendGPSInfo: Off
+	ReceiveGPSInfo: Off
+	PrivateCallConfirmed: Off
+	Talkaround: Off
+	EmergencyAlarmAck: Off
+	DataCallConfirmed: Off
+	DCDMSwitch: Off
+	LeaderMS: Off
+	EmergencySystem: None
+	ContactName: "TAC2 26299"
+	GroupList: TG26299
+	ColorCode: 1
+	RepeaterSlot: 1
+	Privacy: None
+	PrivacyNumber: 1
+	GPSSystem: None
+	InCallCriteria: Always
+	DisplayPTTID: Off
+	CtcssEncode: None
+	TxSignallingSystem: Off
+	QtReverse: 180
+	ReverseBurst: On
+	CtcssDecode: None
+	RxSignallingSystem: Off
+	Decode1: Off
+	Decode2: Off
+	Decode3: Off
+	Decode4: Off
+	Decode5: Off
+	Decode6: Off
+	Decode7: Off
+	Decode8: Off
+
+Channels:
+	Name: "TAC3 26233"
+	RxFrequency: 439.48750
+	TxFrequencyOffset: -7.60000
+	ChannelMode: Digital
+	Bandwidth: 12.5
+	ScanList: None
+	Squelch: 1
+	RxRefFrequency: Low
+	TxRefFrequency: Low
+	Tot: 60
+	TotRekeyDelay: 0
+	Power: High
+	AdmitCriteria: Always
+	Autoscan: Off
+	RxOnly: Off
+	LoneWorker: Off
+	Vox: Off
+	AllowTalkaround: Off
+	SendGPSInfo: Off
+	ReceiveGPSInfo: Off
+	PrivateCallConfirmed: Off
+	Talkaround: Off
+	EmergencyAlarmAck: Off
+	DataCallConfirmed: Off
+	DCDMSwitch: Off
+	LeaderMS: Off
+	EmergencySystem: None
+	ContactName: "TAC3 26233"
+	GroupList: TG26233
+	ColorCode: 1
+	RepeaterSlot: 1
+	Privacy: None
+	PrivacyNumber: 1
+	GPSSystem: None
+	InCallCriteria: Always
+	DisplayPTTID: Off
+	CtcssEncode: None
+	TxSignallingSystem: Off
+	QtReverse: 180
+	ReverseBurst: On
+	CtcssDecode: None
+	RxSignallingSystem: Off
+	Decode1: Off
+	Decode2: Off
+	Decode3: Off
+	Decode4: Off
+	Decode5: Off
+	Decode6: Off
+	Decode7: Off
+	Decode8: Off
+
+Channels:
+	Name: "TAC4 26266"
+	RxFrequency: 439.48750
+	TxFrequencyOffset: -7.60000
+	ChannelMode: Digital
+	Bandwidth: 12.5
+	ScanList: None
+	Squelch: 1
+	RxRefFrequency: Low
+	TxRefFrequency: Low
+	Tot: 60
+	TotRekeyDelay: 0
+	Power: High
+	AdmitCriteria: Always
+	Autoscan: Off
+	RxOnly: Off
+	LoneWorker: Off
+	Vox: Off
+	AllowTalkaround: Off
+	SendGPSInfo: Off
+	ReceiveGPSInfo: Off
+	PrivateCallConfirmed: Off
+	Talkaround: Off
+	EmergencyAlarmAck: Off
+	DataCallConfirmed: Off
+	DCDMSwitch: Off
+	LeaderMS: Off
+	EmergencySystem: None
+	ContactName: "TAC4 26266"
+	GroupList: TG26266
+	ColorCode: 1
+	RepeaterSlot: 1
+	Privacy: None
+	PrivacyNumber: 1
+	GPSSystem: None
+	InCallCriteria: Always
+	DisplayPTTID: Off
+	CtcssEncode: None
+	TxSignallingSystem: Off
+	QtReverse: 180
+	ReverseBurst: On
+	CtcssDecode: None
+	RxSignallingSystem: Off
+	Decode1: Off
+	Decode2: Off
+	Decode3: Off
+	Decode4: Off
+	Decode5: Off
+	Decode6: Off
+	Decode7: Off
+	Decode8: Off
+
+Channels:
+	Name: "TETRA RXOnly"
+	RxFrequency: 434.71250
+	TxFrequencyOffset: +0.00000
+	ChannelMode: Analog
+	Bandwidth: 12.5
+	ScanList: None
+	Squelch: 1
+	RxRefFrequency: Low
+	TxRefFrequency: Low
+	Tot: 60
+	TotRekeyDelay: 0
+	Power: High
+	AdmitCriteria: Always
+	Autoscan: Off
+	RxOnly: On
+	LoneWorker: Off
+	Vox: Off
+	AllowTalkaround: Off
+	SendGPSInfo: Off
+	ReceiveGPSInfo: Off
+	PrivateCallConfirmed: Off
+	Talkaround: Off
+	EmergencyAlarmAck: Off
+	DataCallConfirmed: Off
+	DCDMSwitch: Off
+	LeaderMS: Off
+	EmergencySystem: None
+	ContactName: "TAC4 26266"
+	GroupList: None
+	ColorCode: 1
+	RepeaterSlot: 1
+	Privacy: None
+	PrivacyNumber: 1
+	GPSSystem: None
+	InCallCriteria: Always
+	DisplayPTTID: Off
+	CtcssEncode: None
+	TxSignallingSystem: Off
+	QtReverse: 180
+	ReverseBurst: On
+	CtcssDecode: None
+	RxSignallingSystem: Off
+	Decode1: Off
+	Decode2: Off
+	Decode3: Off
+	Decode4: Off
+	Decode5: Off
+	Decode6: Off
+	Decode7: Off
+	Decode8: Off
+
+GPSSystems:
+	GPSRevertChannel: "Current Channel"
+	GPSDefaultReportInterval: Off
+	DestinationID: None
+
+GPSSystems:
+	GPSRevertChannel: "Current Channel"
+	GPSDefaultReportInterval: Off
+	DestinationID: None
+
+GPSSystems:
+	GPSRevertChannel: "Current Channel"
+	GPSDefaultReportInterval: Off
+	DestinationID: None
+
+GPSSystems:
+	GPSRevertChannel: "Current Channel"
+	GPSDefaultReportInterval: Off
+	DestinationID: None
+
+GPSSystems:
+	GPSRevertChannel: "Current Channel"
+	GPSDefaultReportInterval: Off
+	DestinationID: None
+
+GPSSystems:
+	GPSRevertChannel: "Current Channel"
+	GPSDefaultReportInterval: Off
+	DestinationID: None
+
+GPSSystems:
+	GPSRevertChannel: "Current Channel"
+	GPSDefaultReportInterval: Off
+	DestinationID: None
+
+GPSSystems:
+	GPSRevertChannel: "Current Channel"
+	GPSDefaultReportInterval: Off
+	DestinationID: None
+
+GPSSystems:
+	GPSRevertChannel: "Current Channel"
+	GPSDefaultReportInterval: Off
+	DestinationID: None
+
+GPSSystems:
+	GPSRevertChannel: "Current Channel"
+	GPSDefaultReportInterval: Off
+	DestinationID: None
+
+GPSSystems:
+	GPSRevertChannel: "Current Channel"
+	GPSDefaultReportInterval: Off
+	DestinationID: None
+
+GPSSystems:
+	GPSRevertChannel: "Current Channel"
+	GPSDefaultReportInterval: Off
+	DestinationID: None
+
+GPSSystems:
+	GPSRevertChannel: "Current Channel"
+	GPSDefaultReportInterval: Off
+	DestinationID: None
+
+GPSSystems:
+	GPSRevertChannel: "Current Channel"
+	GPSDefaultReportInterval: Off
+	DestinationID: None
+
+GPSSystems:
+	GPSRevertChannel: "Current Channel"
+	GPSDefaultReportInterval: Off
+	DestinationID: None
+
+GPSSystems:
+	GPSRevertChannel: "Current Channel"
+	GPSDefaultReportInterval: Off
+	DestinationID: None
